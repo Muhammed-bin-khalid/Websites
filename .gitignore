@@ -33,7 +33,8 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-# client configs (keep demo, ignore generated ones)
+# client configs (keep demo, active, ignore generated ones)
 business-config.*.ts
 !business-config.demo.ts
 !business-config.schema.ts
+!business-config.muhammed-khaled.ts
