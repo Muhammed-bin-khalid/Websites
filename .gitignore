@@ -38,3 +38,4 @@ business-config.*.ts
 !business-config.demo.ts
 !business-config.schema.ts
 !business-config.muhammed-khaled.ts
+.env*
