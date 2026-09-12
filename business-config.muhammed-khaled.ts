@@ -80,6 +80,12 @@ export const businessConfig: BusinessConfig = {
       testimonials: [],
     },
 
+    projects: {
+      enabled: true,
+      title: 'Projects Completed',
+      subtitle: 'A selection of projects I\'ve delivered for clients.',
+    },
+
     contact: {
       enabled: true,
       title: 'Let\'s Build Something',

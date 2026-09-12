@@ -178,6 +178,11 @@ export const businessConfig: BusinessConfig = {
       ],
     },
 
+    projects: {
+      enabled: false,
+      title: 'Projects Completed',
+    },
+
     contact: {
       enabled: true,
       title: 'Visit Tlahco Kitchen',

@@ -7,6 +7,7 @@ import Footer from "@/components/layout/Footer";
 import Hero from "@/components/sections/Hero";
 import Capabilities from "@/components/sections/Capabilities";
 import Process from "@/components/sections/Process";
+import ProjectsCompleted from "@/components/sections/ProjectsCompleted";
 import Contact from "@/components/sections/Contact";
 
 export default function HomePage() {
@@ -18,6 +19,7 @@ export default function HomePage() {
           <Hero />
           <Capabilities />
           <Process />
+          <ProjectsCompleted />
           <Contact />
         </main>
         <Footer />

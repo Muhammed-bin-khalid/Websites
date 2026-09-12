@@ -134,6 +134,12 @@ export interface ContactSection {
   formSubmitEndpoint?: string;  // URL to POST form data
 }
 
+export interface ProjectsSection {
+  enabled: boolean;
+  title: string;
+  subtitle?: string;
+}
+
 export interface FooterSection {
   enabled: boolean;
   copyrightText: string;
@@ -176,6 +182,7 @@ export interface BusinessConfig {
     menu: MenuSection;
     gallery: GallerySection;
     testimonials: TestimonialsSection;
+    projects: ProjectsSection;
     contact: ContactSection;
     footer: FooterSection;
   };
