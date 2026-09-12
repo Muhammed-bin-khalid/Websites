@@ -90,28 +90,8 @@ export default function Footer() {
           
           {contact.social && (
             <div className="flex gap-8">
-              {contact.social.linkedin && (
-                <a 
-                  href={contact.social.linkedin} 
-                  target="_blank" 
-                  rel="noopener noreferrer" 
-                  className="text-[10px] font-mono uppercase tracking-[0.15em] text-white/40 hover:text-white transition-colors duration-300 relative group"
-                >
-                  LinkedIn
-                  <span className="absolute -bottom-1 left-0 w-0 h-px bg-white group-hover:w-full transition-all duration-300" />
-                </a>
-              )}
-              {contact.social.twitter && (
-                <a 
-                  href={contact.social.twitter} 
-                  target="_blank" 
-                  rel="noopener noreferrer" 
-                  className="text-[10px] font-mono uppercase tracking-[0.15em] text-white/40 hover:text-white transition-colors duration-300 relative group"
-                >
-                  Twitter
-                  <span className="absolute -bottom-1 left-0 w-0 h-px bg-white group-hover:w-full transition-all duration-300" />
-                </a>
-              )}
+
+
             </div>
           )}
         </motion.div>
