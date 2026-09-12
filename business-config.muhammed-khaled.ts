@@ -35,7 +35,7 @@ export const businessConfig: BusinessConfig = {
     ],
     social: {
       twitter: 'https://twitter.com/muhammedkhaled',
-      linkedin: 'https://linkedin.com/in/muhammedkhaled',
+      linkedin: 'https://www.linkedin.com/in/muhammed-bin-khaled-9a6490436/',
     },
   },
 
